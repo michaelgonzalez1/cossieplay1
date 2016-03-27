@@ -1,45 +1,35 @@
 body {
 background-color: rgb(250, 0, 19);
-    border: double;
 	
 }
 .header {
-    width: 100%;
     background-color: #d43f3a;
 }
 .header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%
-
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 .menu {
 
 }
 .menu ul {
-	list-style: none;
-	background-color: hsl(353, 100%, 45%);
-
-
+	text-align: center;
 }
-.menu ul a {
-    color: #ffbc00;
 
-}
 .menu li {
     display: inline;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:34px;
+	font-size:24px;
 	font-weight: bolder;
-	text-align: center;
+	
 
 }
 .menu li a {
 	color: #ffffff;
 	text-decoration: none;
     padding: 14px 16px;
+	
 }
 .menu li a:hover {
 	color: #fec82b;
@@ -49,95 +39,26 @@ background-color: rgb(250, 0, 19);
 	text-decoration: none;
     color: #d0feb5;
 }
-footer {
-    text-align: center;
+.mainbody {
+	width: auto;
+	background: green;
+	position:relative;
+    min-height:100%;
 }
-
-.button {
-    background-color: #f20012;
-    border: none;
-    color: white;
-    padding: 0px 0px;
-    text-align: right;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px 0px;
-    cursor: pointer;
-}
-.button a {
-    color: #fffbff;
-    text-decoration: none;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: lighter;
-    font-size: 35px;
-}
-.button a:hover {
-    color: #fffbff;
-    background-color: #fa1b1c;
-}
-.button a:visited {
-    color: #a80008;
-    font-weight: bolder;
-}
-
-footer {
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
-   background: red;
-}
-.box {
-    margin: 2px;
-    padding: 0px;
-    text-align: center;
-}
-.box p {
-    text-align: center;
-}
-div.item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 120px;
-}
-.body {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    background-color: grey;
-
-}
-.caption {
-    vertical-align: bottom;
-    display: block;
-    text-align: center;
-}
-.img {
-	margin: 15px;
-	float: left;
-	width: 180px;
-	border: 1px solid  black;
-}
-.img img{
-	width: 100%;
-	height: auto;
-	
-}
-.desc {
-	padding: 25px;
-	text-align: center;
+.mainbody img {
+	display: inline;
 }
 .sidebar {
 	float: right;
-	background: hsla(0,0%,40%,1.00);
-	margin-top: 15px;
-	width: 200px;
-	margin-right: 50px;
-	}
-.sidebar h2 {
-	text-align:center;
+}
+.img {
+	width:200px;
+    text-align:center;
+    display:block;
+    background-color: #ededed;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float:left;
+	
 }
