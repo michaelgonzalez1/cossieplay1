@@ -1,44 +1,40 @@
-.container {
+@charset "UTF-8";
+body {
 	background: red;
-	margin: auto;
 }
-.header {
-    width: auto;
-    height: auto;
-}
-.header img {
-	display: block;
+
+#header {
+	width: 1024px;
+	margin-bottom: 0px;
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
+}
+.logo {
+	margin: 0px;
+	padding: 0px;
+}
+.nav {
+	background:  hsla(0,100%,50%,1.00) ;
 }
 .nav ul {
-	background: #FF3F3F;
+	padding: 0px;
 	margin: 0px;
-	padding: 1px;
-	
 }
 .nav li {
 	display: inline;
-	padding: 30px;
+	
 }
 .nav a {
-	text-decoration: none;
 	color: white;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: lighter;
+	text-decoration: none;
 	font-size: 30px;
-}
-.nav a:hover {
-	color: red;
-	background-color: white;
-}
-.mainbody {
-	padding: 20px;
-	height: auto;
-	width: auto;
-}
-.footer {
-	margin-top: auto;
+	padding-right: 55px;
+	padding-left: 10px;
 	text-align: center;
 	
 }
-	
+.nav a:hover {
+	color: hsla(47,100%,58%,1.00);
+}
