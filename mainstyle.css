@@ -1,78 +1,176 @@
 @charset "UTF-8";
 body {
-	background: red;
-}
-#wrapper {
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
-	background: red;
-}
-
-#header {
 	width: 1024px;
-	margin-bottom: 0px;
-	float: left;
+	margin: 0 auto;
+	background: hsla(0,100%,46%,1.00);
 }
-.logo {
-	margin: 0px;
-	padding: 0px;
-}
-.nav {
-	background:  hsla(0,100%,50%,1.00) ;
-}
-.nav ul {
-	padding: 0px;
-	margin: 0px;
-}
-.nav li {
-	display: inline;
-	
-}
-.nav a {
-	color: white;
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	font-weight: lighter;
-	text-decoration: none;
-	font-size: 30px;
-	padding-right: 55px;
-	padding-left: 10px;
+.header {
 	text-align: center;
-	
+	margin: 0px;
+	padding: 0px;
 }
-.nav a:hover {
-	color: hsla(47,100%,58%,1.00);
+.header img {
+	width: 1024px;
+	margin: 0px;
+	padding: 0px;
+}
+.header ul {
+	list-style: none;
+	margin: 0px;
+	background: black;
+}
+.header li {
+	display: inline;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+.header a {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: bolder;
+	font-size: 24px;
+	padding-right: 50px;
+	margin: 0px;
+	text-decoration: none;
+	color: white;
+}
+.header a:hover {
+	color: red;
+	font-weight: bolder;
+}
+.signup {
+	text-align: center;
+	margin: 20px;
+	background-color: black;
+}
+.signup span {
+	text-align: center;
+	font-size: 36px;
+	font-family: holtwood-one-sc;
+	font-weight: bolder;
+	width: 100%;
+	margin: 0px;
+}
+.signup a {
+	color: white;
+	text-decoration: none;
+}
+.signup a:hover {
+	text-decoration: none;
+	color: red;
 }
 .gallery {
-float: left;
-}
-.image {
-	width: 200px;
-	height: auto;
-	float: left;
-	margin: 3px;
-	padding-left: 0px;
-	margin-top: 30px;
-	
-}
-.image p {
+	max-width: 960px;
 	text-align: center;
 }
-image img {
-	margin-right: auto;
-	margin-left: auto;
+.gallery img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: grey;
 }
-.announcements {
-	float: right;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 20px;
-	margin-top: 30px;
-	margin-right:30px;
+.caption {
+	display: block;
+	float: left;
 }
-.announcements li {
-	list-style-type: upper-latin;
+table {
+	background: red;
 }
-.announcements h2 {
+tr {
 	color: white;
 }
-	
+.prices a {
+	text-decoration: none;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 24px;
+	font-weight: bolder;
+	color: black;
+	display: block;
+	background: white;
+}
+.prices a:hover {
+	color: red;
+	background-color: yellow;
+}
+.about {
+	background-color: hsla(0,100%,46%,1.00);
+}
+.about li {
+	color: white;
+	font-weight: bolder;
+	font-size: 25px;
+}
+.about h2 {
+	font-size: 40px;
+	font-family: bigshot-one;
+	color: white;
+	text-align: center;
+}
+.highlight {
+	color: yellow;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.notice {
+	text-decoration: underline;
+	color: yellow;
+}
+.notice hover {
+	color: orange;
+}
+.pricelist {
+	width: 897px;
+	font-size: 19px;
+	background-color: hsla(0,100%,46%,1.00);
+}
+.eventsimg {
+	width: 502;
+	border: 0;
+	cellspace: 30px;
+}
+.partyinfo {
+	color: white;
+}
+.links {
+	text-align: center;
+}
+.links a {
+	text-decoration: none;
+	font-size: 34px;
+	text-align: center;
+	color: yellow;
+}
+.links a:hover {
+	color: white;
+}
+.define {
+	color: white;
+	font-size: 35px;
+}
+.definebody {
+	color: white;
+	font-size: 19px;
+	background-color: hsla(0,95%,41%,1.00);
+}
+.gallerylinks {
+	text-decoration: none;
+	color: white;
+}
+.gallerylinks a:hover {
+	color: yellow;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	margin-top:90px;
+}
+.contact {
+	font-size: 40px;
+	font-family: bigshot-one;
+	color: white;
+	text-align: center;
+}
+.sewing img{
+	margin-left: auto;
+	margin-right: auto;
+}
